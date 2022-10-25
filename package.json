@@ -1,0 +1,16 @@
+{
+  "name": "webflow-dev-env",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "esbuild working.js --bundle --outfile=dist/index.js --watch",
+    "build-by-file": "node builder.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "esbuild": "^0.15.12"
+  }
+}
